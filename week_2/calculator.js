@@ -27,7 +27,7 @@ switch (operation) {
     if (secondNumber !== 0) {
         console.log(firstNumber / secondNumber);
     } else {
-        alert("You can't divide by 0!");
+        console.log("You can't divide by 0!");
     }
     break;
     default:
