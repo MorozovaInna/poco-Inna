@@ -6,3 +6,6 @@ let month = futureDate.getMonth() + 1;
 let year = futureDate.getFullYear();
 
 console.log("On " + day + "." + month + "." + year + " I will be " + age + ".")
+
+
+
