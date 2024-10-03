@@ -8,7 +8,7 @@ while (true) {
         console.log("You entered the right value!");
         break;
     } else {
-    alert("Fuel level must be greater than 5000 and less than 30000.");
+    console.log("Fuel level must be greater than 5000 and less than 30000.");
     }
 }
 
@@ -18,7 +18,7 @@ while (true) {
         console.log("You entered the right number!");
         break;
     } else {
-    alert("Number of astronauts must be between 1 and 7.");
+    console.log("Number of astronauts must be between 1 and 7.");
     }
 }
 
@@ -27,4 +27,4 @@ while (fuelLevel >= astronautsOnBoard * 100) {
     altitude += 50;
 }
 
-alert("Shuttle reached an altitude of " + altitude + " km with " +fuelLevel + " units of fuel remaining.");
+console.log("Shuttle reached an altitude of " + altitude + " km with " +fuelLevel + " units of fuel remaining.");

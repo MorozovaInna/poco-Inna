@@ -6,6 +6,7 @@ if (isNaN(firstNumber)) {
 }
 
 let secondNumber = Number(prompt("Please enter the second number: "));
+
 if (isNaN(secondNumber)) {
     console.log("Please provide valid numbers!");
     return;
@@ -32,4 +33,4 @@ switch (operation) {
     break;
     default:
     console.log("Invalid operator");
-    }
+}
